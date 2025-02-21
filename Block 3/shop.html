@@ -1,0 +1,84 @@
+<!-- Own Code  Start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Sets the character encoding to UTF-8 for proper text display -->
+  <meta charset="UTF-8">
+  <!-- Ensures the webpage is responsive on different devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Defines the title of the webpage displayed in the browser tab -->
+  <title>D2 - Shop</title>
+  <!-- Links Bootstrap CSS framework for styling and layout -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Links an external custom stylesheet for additional styling -->
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Nav bar using Bootstrap classes -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-olive">
+    <div class="container">
+        <!-- Brand logo with a link to the homepage -->
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="D2 Logo" class="logo-img">
+        </a>
+      <!-- Toggle navigation menu on small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapsible navigation menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Navigation links to different pages -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="new-designs.html">New Designs</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header section with a title -->
+  <header>
+    <h1 class="text-center mt-5">Shop</h1>
+  </header>
+
+  <!-- Section displaying the featured products -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Featured Products</h2> 
+    <div class="row">
+      <!-- Column for first product -->
+      <div class="col-md-4">
+        <img src="images/featured1.jpg" alt="Mens Spring Outfit - £475" class="img-fluid">
+        <h3>Mens Spring Outfit</h3>
+        <p>£475</p>
+        <button class="btn btn-rose-gold">Add to Cart</button>
+      </div>
+      <!-- Column for second product -->
+      <div class="col-md-4">
+        <img src="images/featured2.jpg" alt="Mens Trainers - £145" class="img-fluid">
+        <h3>Mens Trainers</h3>
+        <p>£145</p>
+        <button class="btn btn-rose-gold">Add to Cart</button>
+      </div>
+      <!-- Column for third product -->
+      <div class="col-md-4">
+        <img src="images/carousel2.jpg" alt="Womens Dress - £300" class="img-fluid">
+        <h3>Womens Dress</h3>
+        <p>£300</p>
+        <button class="btn btn-rose-gold">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section with copyright information -->
+  <footer class="bg-olive text-white text-center py-3">
+    <p>&copy; 2025 D2. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript bundle for interactive components -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!-- Own Code  Finish -->

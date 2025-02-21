@@ -1,0 +1,96 @@
+/* Own Code Start */
+:root {
+    --olive-green: #6b6b00; /* Defines a custom color variable for olive green */
+    --rose-gold: #a05a65;  /* Defines a custom color variable for rose gold */
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff; //* Sets the color of navbar links to white */
+}
+
+
+.navbar-dark.bg-olive {
+    background-color: #3e4c38; /* Applies an olive color to the navbar background */
+}
+
+/* Rose gold button styling */
+.btn-rose-gold {
+    background-color: var(--rose-gold); 
+    color: #ffffff; /* Sets the button text color to white */
+    font-weight: bold; /* Makes the button text bold */
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; /* Rounds the corners of the button */
+}
+
+/* Rose gold button hover effect */
+.btn-rose-gold:hover {
+    background-color: #914954 !important; 
+}
+
+/* Styling for carousel container */
+.carousel-container {
+    height: 600px; /* Sets the carousel container height */
+    overflow: hidden; 
+}
+
+
+.carousel-container .carousel-inner {
+    height: 100%; /* Sets the height of the carousel inner to fill its container */
+}
+
+/* Flexbox layout for carousel items */
+.carousel-container .carousel-item {
+    height: 100%; 
+    display: flex; 
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+}
+
+
+.carousel-container .carousel-image {
+    width: 100%; /* Makes the image take full width of its container */
+    height: 100%; /* Makes the image take full height of its container */
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        height: 400px; /* Reduces the carousel container height on smaller screens */
+    }
+}
+
+/* Styling for card elements */
+.card {
+    border: none; 
+    transition: transform 0.3s; /* Adds a smooth transition effect for transformations */
+}
+
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card when hovered */
+}
+
+
+.bg-olive {
+    background-color: #3e4c38; /* Sets the background color to olive */
+    color: #f8f8f8; 
+    text-align: center; /* Centers the text */
+    padding: 20px 0; 
+}
+
+/* Footer styling */
+footer {
+    background-color: #3e4c38; /* Sets the footer background color to olive */
+    color: #ffffff; /* Sets the footer text color to white */
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+/* Logo image styling */
+.logo-img {
+    height: 50px; /* Sets the logo image height */
+    width: auto; 
+}
+/* Own Code Finish */

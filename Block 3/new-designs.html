@@ -1,0 +1,73 @@
+<!-- Own Code  Start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Sets the character encoding to UTF-8 for proper text display -->
+  <meta charset="UTF-8">
+  <!-- Ensures the webpage is responsive on different devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Defines the title of the webpage displayed in the browser tab -->
+  <title>D2 - New Designs</title>
+  <!-- Links Bootstrap CSS framework for styling and layout -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Links an external custom stylesheet for additional styling -->
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation bar using Bootstrap classes -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-olive">
+    <div class="container">
+        <!-- Brand logo with a link to the homepage -->
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="D2 Logo" class="logo-img">
+        </a>
+      <!-- Toggle navigation menu on small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapsible navigation menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Navigation links to different pages -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="new-designs.html">New Designs</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section displaying new designs -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">New Designs</h2>
+    <div class="row">
+      <!-- Column for first design -->
+      <div class="col-md-4">
+        <img src="images/design1.jpg" alt="Design 1" class="img-fluid">
+        <h3>Design 1</h3>
+      </div>
+      <!-- Column for second design -->
+      <div class="col-md-4">
+        <img src="images/design2.jpg" alt="Design 2" class="img-fluid">
+        <h3>Design 2</h3>
+      </div>
+      <!-- Column for third design -->
+      <div class="col-md-4">
+        <img src="images/design3.jpg" alt="Design 3" class="img-fluid">
+        <h3>Design 3</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section with copyright information -->
+  <footer class="bg-olive text-white text-center py-3">
+    <p>&copy; 2025 D2. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript bundle for interactive components -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!-- Own Code  Finish -->
